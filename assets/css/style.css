@@ -762,26 +762,6 @@ p {
         float: right;
          } }
 
-
-@media (max-width: 991px) {
-	header-social-icon{float:right;}
-      .header-image1 {
-        width: 35%;
-        display: flex;
-        height: fit-content;
-        float: left;
-         } }
-    @media (max-width: 767px) {
-	header-social-icon{float:right;}
-      .header-image1 {
-        width: 70%;
-        height: fit-content;
-        margin-top: 10%;
-        padding-top: 40px;
-        margin-bottom: 10%;
-        float: left;
-         } }
-
 .header-social {
   position: absolute;
   bottom: 30px;
@@ -825,6 +805,25 @@ p {
           color: #fff;
           background-color: #754ef9;
           border-color: #754ef9; }
+
+@media (max-width: 991px) {
+	header-social-icon{float:right;}
+      .header-image1 {
+        width: 35%;
+        display: flex;
+        height: fit-content;
+        float: left;
+         } }
+    @media (max-width: 767px) {
+	header-social-icon{float:right;}
+      .header-image1 {
+        width: 70%;
+        height: fit-content;
+        margin-top: 10%;
+        padding-top: 40px;
+        margin-bottom: 10%;
+        float: left;
+         } }
 
 /*===========================
         3.ABOUT css 
