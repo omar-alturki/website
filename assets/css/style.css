@@ -762,6 +762,24 @@ p {
         float: right;
          } }
 
+
+@media (max-width: 991px) {
+      .header-image1 {
+        width: 35%;
+        display: flex;
+        height: fit-content;
+        float: left;
+         } }
+    @media (max-width: 767px) {
+      .header-image1 {
+        width: 70%;
+        height: fit-content;
+        margin-top: 10%;
+        padding-top: 40px;
+        margin-bottom: 10%;
+        float: left;
+         } }
+
 .header-social {
   position: absolute;
   bottom: 30px;
