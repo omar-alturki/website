@@ -764,6 +764,7 @@ p {
 
 
 @media (max-width: 991px) {
+	header-social-icon{float:right;}
       .header-image1 {
         width: 35%;
         display: flex;
@@ -771,6 +772,7 @@ p {
         float: left;
          } }
     @media (max-width: 767px) {
+	header-social-icon{float:right;}
       .header-image1 {
         width: 70%;
         height: fit-content;
