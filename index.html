@@ -48,6 +48,28 @@
                color: white;
                font-size: 12px;
        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .single-service {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            .services-container {
+                display: block;
+            }
+        
+            .single-service {
+                margin-bottom: 20px;
+            }
+        }      
     </style>
 
 </head>
@@ -203,8 +225,8 @@
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="row justify-content-center">
-
+        
+            <div class="row justify-content-center services-container">
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="single-service text-center mt-30">
                         <div class="service-icon">
@@ -229,7 +251,6 @@
                         </div>
                     </div> <!-- single service -->
                 </div>
-               
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="single-service text-center mt-30">
                         <div class="service-icon">
@@ -242,7 +263,6 @@
                         </div>
                     </div> <!-- single service -->
                 </div>
-                
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
