@@ -1,17 +1,19 @@
 <!doctype html>
-<html lang="AR">
+<html lang="ar" dir="rtl">
 
 <head>
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7R8QM76LQ"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-V7R8QM76LQ');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-V7R8QM76LQ');
     </script>
-    
+
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -38,24 +40,56 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-       .tags{
-           background-color:#755AD2;
-               width: 100px;
-               margin-left: auto;
-               padding-right: 10px;
-               margin-right: 0;
-               color: white;
-               font-size: 12px;
-       }
-    </style>
 
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        .tags {
+            background-color: #755AD2;
+            width: 100px;
+            margin-left: auto;
+            padding-right: 10px;
+            margin-right: 0;
+            color: white;
+            font-size: 12px;
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .single-service {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .service-title {
+            margin: 0 0 15px 0;
+        }
+
+        @media (max-width: 768px) {
+            .services-container {
+                display: block;
+            }
+
+            .single-service {
+                margin-bottom: 20px;
+            }
+        }
+
+        .navigation .navbar .navbar-nav .nav-item:first-child {
+            margin-left: 30px !important;
+        }
+    </style>
 </head>
 
 <body>
-
     <!--====== PRELOADER PART START ======-->
-
     <div class="preloader">
         <div class="loader_34">
             <div class="ytp-spinner">
@@ -72,11 +106,9 @@
             </div>
         </div>
     </div>
-
     <!--====== PRELOADER ENDS START ======-->
 
     <!--====== HEADER PART START ======-->
-
     <header id="home" class="header-area">
         <div class="navigation fixed-top">
             <div class="container">
@@ -86,7 +118,9 @@
                             <a class="navbar-brand" href="index.html">
                                 <h1></h1>
                             </a> <!-- Logo -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
@@ -139,73 +173,61 @@
             <div class="header-shape shape-ten layer" data-depth="0.30">
                 <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
             </div> <!-- header shape -->
+
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="header-content-right">
-                            <h4 style="text-align: right;" class="sub-title">،،مرحبا </h4>
-                            <h1 style="text-align: right;" class="title">عمر التركي</h1>
-                            <p style="text-align: right;">مستشار تقني</p>
-                            <a style="float: right;" class="main-btn" href="#contact">تواصل</a>
+                    <div class="col-lg-6 col-md-12 order-lg-1 order-1">
+                        <div class="header-content-right text-center">
+                            <h4 class="sub-title">مرحباً،،</h4>
+                            <h1 class="title">عمر التركي</h1>
+                            <p style="text-align: center;">مستشار تقني</p>
+                            <a class="main-btn" href="#contact">تواصل</a><br /><br /><br />
                         </div> <!-- header content right -->
                     </div>
-                    <div class="col-lg-6 ">
-                        <div class="header-image header-image1 d-lg-block img-fluid d-block mobile-image" style="float: left;">
-                            <img src="assets/images/banner/hero.png" alt="hero">
+                    <div class="col-lg-6 col-md-12 order-lg-1 order-2 d-flex justify-content-center">
+                        <div class="header-image header-image1 img-fluid d-block mobile-image">
+                            <img src="assets/images/banner/hero.png" alt="hero" class="img-fluid">
                         </div> <!-- header image -->
                     </div>
-                    
                 </div> <!-- row -->
-            </div> <!-- container -->
-            <div class="header-social">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="header-social-icon" style="float: right;">
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/in/omaralturki/"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> <!-- header social -->
-                        </div>
-                    </div> <!-- row -->
-                </div> <!-- container -->
-            </div> <!-- header social -->
+            </div>
         </div> <!-- header content -->
     </header>
-
     <!--====== HEADER PART ENDS ======-->
 
     <!--====== ABOUT PART START ======-->
-
     <section id="about" class="about-area pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
                         <h2 class="title">نبذة عن عمر التركي</h2>
-                        <p>درس عمر التركي التقنية وعمل في مختلف تخصصاتها من مطوّر تقني حتى صعد خلال أعوام مديدة ليقود الفرق التقنية بشتى مجالاتها. فعمل لدى عدداً من الجهات الخاصة والحكومية كرئيساً للتقنية. وأسس مشاريع أخرى ريادية صنعت فارقاً في قطاعاتها. شملت خبرات عمر التركي العمل على التحليل العميق للمشاريع التقنية، ومراجعة عروضها الفنية، والتخطيط لبناءها واستمراريتها. والآن يسخّر معرفته وخبراته المتراكمة لمنفعة روّاد الأعمال والمستثمرين في توجيهم بما يجنبهم الأخطاء أو يزيد من فاعلية تقنياتهم</p>
+                        <p>درس عمر التركي التقنية وعمل في مختلف تخصصاتها من مطوّر تقني حتى صعد خلال أعوام مديدة ليقود الفرق
+                            التقنية بشتى مجالاتها. فعمل لدى عدداً من الجهات الخاصة والحكومية كرئيساً للتقنية. وأسس مشاريع أخرى
+                            ريادية صنعت فارقاً في قطاعاتها. شملت خبرات عمر التركي العمل على التحليل العميق للمشاريع التقنية،
+                            ومراجعة عروضها الفنية، والتخطيط لبناءها واستمراريتها. والآن يسخّر معرفته وخبراته المتراكمة لمنفعة
+                            روّاد الأعمال والمستثمرين في توجيهم بما يجنبهم الأخطاء أو يزيد من فاعلية تقنياتهم</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== ABOUT PART ENDS ======-->
 
     <!--====== SERVICES PART START ======-->
-
     <section id="service" class="services-area gray-bg pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-30">
                         <h2 class="title">الخدمات</h2>
-                        <p>خدمات تقنية شاملة تشمل الاستشارات، التحليل، المراجعة، تطوير الأفكار، وإرشادات رئيس التقنية، لضمان تنفيذ المشاريع بكفاءة وابتكار وسلامة تقنية</p>
+                        <p>خدمات تقنية شاملة تشمل الاستشارات، التحليل، المراجعة، تطوير الأفكار، وإرشادات رئيس التقنية، لضمان
+                            تنفيذ المشاريع بكفاءة وابتكار وسلامة تقنية</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="row justify-content-center">
 
+            <div class="row justify-content-center services-container">
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="single-service text-center mt-30">
                         <div class="service-icon">
@@ -214,7 +236,8 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title">الفحص التقني</h4>
-                            <p style="text-align: center;">قبل استثمارك في أي شركة ناشئة يساعدك عمر على فحص تقنياتهم وبنيتها التحتية، للتأكد من صحة وسلامة ممارساتهم من الأخطاء التقنية والأمنية</p>
+                            <p style="text-align: justify;">قبل استثمارك في أي شركة ناشئة يساعدك عمر على فحص تقنياتهم وبنيتها
+                                التحتية، للتأكد من صحة وسلامة ممارساتهم من الأخطاء التقنية والأمنية</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -226,11 +249,11 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title">من الفكرة إلى التنفيذ</h4>
-                            <p style="text-align: center;">تشمل كل ما يتعلّق بدراسة المشروع، وتجهيز المتطلبات التقنية، وحتى تحليل العروض الفنية المقّدمة من قبل شركات البرمجة</p>
+                            <p style="text-align: justify;">تشمل كل ما يتعلّق بدراسة المشروع، وتجهيز المتطلبات التقنية، وحتى
+                                تحليل العروض الفنية المقّدمة من قبل شركات البرمجة</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
-               
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div class="single-service text-center mt-30">
                         <div class="service-icon">
@@ -239,26 +262,27 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title">رئيس التقنية كخدمة</h4>
-                            <p style="text-align: center;">لا تحتمل كثير من الشركات الناشئة تعيين رئيس تقني بدوام كامل. فلذا صممنا هذه الخدمة لتكفيك الحد الأدنى من الاحتياج المستمر للرئيس التقني في مراجعة الأعمال التقنية وتوجيه الإرشادات اللازمة للفريق المنفّذ لها</p>
+                            <p style="text-align: justify;">لا تحتمل كثير من الشركات الناشئة تعيين رئيس تقني بدوام كامل. فلذا
+                                صممنا هذه الخدمة لتكفيك الحد الأدنى من الاحتياج المستمر للرئيس التقني في مراجعة الأعمال
+                                التقنية وتوجيه الإرشادات اللازمة للفريق المنفّذ لها</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
-                
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== SERVICES PART ENDS ======-->
 
     <!--====== CALL TO ACTION PART START ======-->
-
-    <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
+    <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover"
+        style="background-image: url(assets/images/call-to-action.jpg)">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-9">
                     <div class="call-action-content text-center">
                         <h2 class="action-title">لمعرفة المزيد حول الخدمات والحلول</h2>
-                        <p>تواصل معي وسنعقد اجتماع أولي مجاني لمعرفة احتياجك، وللحصول على إرشادات وحلول مبتكرة لضمان نجاحك تقنياً</p>
+                        <p>تواصل معي وسنعقد اجتماع أولي مجاني لمعرفة احتياجك، وللحصول على إرشادات وحلول مبتكرة لضمان نجاحك
+                            تقنياً</p>
                         <ul>
                             <li><a class="main-btn custom" href="#contact">تواصل</a></li>
                         </ul>
@@ -267,18 +291,17 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== CALL TO ACTION PART ENDS ======-->
 
     <!--====== BLOG PART START ======-->
-
     <section id="blog" class="blog-area pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
                         <h2 class="title">من المدونة</h2>
-                        <p>وسّع اطلاعك التقني وواكب أحدث التقنيات والممارسات التي يختصرها لكم عمر التركي في مدونته الاسبوعية</p>
+                        <p>وسّع اطلاعك التقني وواكب أحدث التقنيات والممارسات التي يختصرها لكم عمر التركي في مدونته
+                            الاسبوعية</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -291,18 +314,17 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== BLOG PART ENDS ======-->
 
     <!--====== CONTACT PART START ======-->
-
     <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
                         <h2 class="title">لنبقى على تواصل</h2>
-                        <p>جاهز للتعاون أو لديك أسئلة؟ تواصل معي للحصول على إرشادات خبير، وحلول مبتكرة، ولتناقش احتياجات مشروعك التقني</p>
+                        <p>جاهز للتعاون أو لديك أسئلة؟ تواصل معي للحصول على إرشادات خبير، وحلول مبتكرة، ولتناقش احتياجات مشروعك
+                            التقني</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -317,52 +339,52 @@
                                 <h6 class="contact-title">لحجز المواعيد</h6>
                                 <p>احجز جلسة عن بعد لمدة 30 دقيقة</p>
                             </div>
-                        </a>
-                    </div> <!-- contact box -->
+                        </a> <!-- contact box -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="contact-box text-center mt-30">
-                        <a href="tel:+966560440526">
+                        <a href="https://www.linkedin.com/in/omaralturki/">
                             <div class="contact-icon">
-                                <i class="lni-phone-handset"></i>
+                                <i class="lni-linkedin-original"></i>
                             </div>
                             <div class="contact-content">
-                                <h6 class="contact-title">رقم الجوال</h6>
-                                <p>+966560440526</p>
+                                <h6 class="contact-title">لينكدان</h6>
+                                <p>@OmarAlturki</p>
                             </div>
-                        </a>
-                    </div> <!-- contact box -->
+                        </a> <!-- contact box -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-7">
                     <div class="contact-box text-center mt-30">
-                        <a href="mailto:Omar.Alturki2@gmail.com">
+                        <a href="mailto:Consult@OmarAlturki.me">
                             <div class="contact-icon">
                                 <i class="lni-envelope"></i>
                             </div>
                             <div class="contact-content">
                                 <h6 class="contact-title">البريد الإلكتروني</h6>
-                                <p>Omar.Alturki2@gmail.com</p>
+                                <p>Consult@OmarAlturki.me</p>
                             </div>
-                        </a>
-                    </div> <!-- contact box -->
+                        </a> <!-- contact box -->
+                    </div>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-
     <!--====== CONTACT PART ENDS ======-->
 
     <!--====== FOOTER PART START ======-->
-
     <footer id="footer" class="footer-area">
         <div class="footer-widget pt-50 pb-40">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
-                            <p class="mt-">شكراً لزيارتك، ولنبقى على تواصل فعّال تسعدنا متابعتك للحساب الرسمي على لنكد ان حيث نشارك أحدث الأخبار التقنية</p>
+                            <p class="mt-">شكراً لزيارتك، ولنبقى على تواصل فعّال تسعدنا متابعتك للحساب الرسمي على لنكد ان حيث
+                                نشارك أحدث الأخبار التقنية</p>
                             <ul>
-                                <li><a href="https://www.linkedin.com/in/omaralturki/"><i class="lni-linkedin-original"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/omaralturki/"><i
+                                            class="lni-linkedin-original"></i></a></li>
                             </ul>
                         </div> <!-- footer content -->
                     </div>
@@ -376,7 +398,7 @@
                         <div class="copyright-text text-center pt-20">
                             <p>Copyright &copy;
                                 <script>
-                                  document.write(new Date().getFullYear());
+                                    document.write(new Date().getFullYear());
                                 </script> All rights reserved</p>
                         </div> <!-- copyright text -->
                     </div>
@@ -384,13 +406,10 @@
             </div> <!-- container -->
         </div> <!-- footer widget -->
     </footer>
-
     <!--====== FOOTER PART ENDS ======-->
 
     <!--====== BACK TOP TOP PART START ======-->
-
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
-
     <!--====== BACK TOP TOP PART ENDS ======-->
 
     <!--====== jquery js ======-->
@@ -419,10 +438,9 @@
     <script src="assets/js/jquery.easing.min.js"></script>
 
     <!--====== Main js ======-->
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/mail.js"></script>
-    <script src="./assets/js/plugins.js"></script>
-
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mail.js"></script>
+    <script src="assets/js/plugins.js"></script>
 </body>
 
 </html>
