@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /login/
 Allow: /
 
-Sitemap: https://www.omaralturki.me/sitemap.xml
+Sitemap: https://omaralturki.me/sitemap.xml
