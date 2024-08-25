@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
 
 <head>
+    <meta charset="utf-8">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7R8QM76LQ"></script>
     <script>
@@ -14,38 +15,70 @@
         gtag('config', 'G-V7R8QM76LQ');
     </script>
 
+    <!-- Schema.org JSON-LD markup for structured data -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "عمر التركي",
+          "alternateName": "Omar Alturki",
+          "jobTitle": "مستشار تقني",
+          "url": "https://omaralturki.me",
+          "image": "https://omaralturki.me/assets/images/banner/hero.png",
+          "sameAs": [
+            "https://www.linkedin.com/in/omaralturki/"
+          ],
+          "knowsAbout": [
+            "الاستشارات التقنية",
+            "الشركات الناشئة",
+            "التحليل التقني",
+            "خدمات رئيس التقنية"
+          ],
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "مستشار تقني",
+            "skills": ["الاستشارات التقنية", "الشركات الناشئة", "التحليل التقني", "خدمات رئيس التقنية"]
+          }
+        }
+    </script>
+
     <!--====== Required meta tags ======-->
-    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta name="description" content="عمر التركي - مستشار تقني يقدم خدمات الاستشارات والتحليل والمراجعة للشركات الناشئة والمستثمرين ورواد الأعمال">
+    <meta name="keywords" content="عمر التركي, مستشار تقني, خدمات تقنية, الفحص التقني, تطوير الأفكار, رئيس التقنية, شركات ناشئة, رواد أعمال">
+    <meta name="author" content="عمر التركي">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--====== Open Graph meta tags ======-->
+    <meta property="og:title" content="عمر التركي - مستشار تقني">
+    <meta property="og:description" content="خدمات تقنية شاملة تشمل الاستشارات، التحليل، المراجعة، تطوير الأفكار، وإرشادات رئيس التقنية">
+    <meta property="og:image" content="https://omaralturki.me/assets/images/banner/hero.png">
+    <meta property="og:url" content="https://omaralturki.me">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:see_also" content="https://www.linkedin.com/in/omaralturki/">
+
     <!--====== Title ======-->
-    <title>عمر التركي</title>
+    <title>عمر التركي - مستشار تقني</title>
 
     <!--====== Favicon Icon ======-->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-    <!--====== Bootstrap css ======-->
+    <!--====== CSS files ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!--====== Line Icons css ======-->
     <link rel="stylesheet" href="assets/css/LineIcons.css">
-
-    <!--====== Magnific Popup css ======-->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
-    <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/default.css">
-
-    <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--====== Custom Styles ======-->
     <style>
+        /* Justify text in paragraphs */
         p {
             text-align: justify;
         }
 
+        /* Style for service tags */
         .tags {
             background-color: #755AD2;
             width: 100px;
@@ -56,22 +89,26 @@
             font-size: 12px;
         }
 
+        /* Flex container for services */
         .services-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
         }
 
+        /* Service item styling */
         .single-service {
             display: flex;
             flex-direction: column;
             height: 100%;
         }
 
+        /* Service title margin */
         .service-title {
             margin: 0 0 15px 0;
         }
 
+        /* Responsive styling for services */
         @media (max-width: 768px) {
             .services-container {
                 display: block;
@@ -82,6 +119,7 @@
             }
         }
 
+        /* Adjust navigation margin for the first item */
         .navigation .navbar .navbar-nav .nav-item:first-child {
             margin-left: 30px !important;
         }
@@ -116,8 +154,9 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <h1></h1>
-                            </a> <!-- Logo -->
+                                <!-- Logo can be placed here -->
+                            </a>
+                            <!-- Navbar toggler for mobile view -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -143,36 +182,37 @@
         </div> <!-- navigation -->
 
         <div id="parallax" class="header-content d-flex align-items-center">
+            <!-- Header shapes with parallax effect -->
             <div class="header-shape shape-one layer" data-depth="0.10">
                 <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-tow layer" data-depth="0.30">
                 <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-three layer" data-depth="0.40">
                 <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-fore layer" data-depth="0.60">
                 <img src="assets/images/banner/shape/shape-2.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-five layer" data-depth="0.20">
                 <img src="assets/images/banner/shape/shape-1.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-six layer" data-depth="0.15">
                 <img src="assets/images/banner/shape/shape-4.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-seven layer" data-depth="0.50">
                 <img src="assets/images/banner/shape/shape-5.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-eight layer" data-depth="0.40">
                 <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-nine layer" data-depth="0.20">
                 <img src="assets/images/banner/shape/shape-6.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
             <div class="header-shape shape-ten layer" data-depth="0.30">
                 <img src="assets/images/banner/shape/shape-3.png" alt="Shape">
-            </div> <!-- header shape -->
+            </div>
 
             <div class="container">
                 <div class="row align-items-center">
@@ -181,12 +221,12 @@
                             <h4 class="sub-title">مرحباً،،</h4>
                             <h1 class="title">عمر التركي</h1>
                             <p style="text-align: center;">مستشار تقني</p>
-                            <a class="main-btn" href="#contact">تواصل</a><br /><br /><br />
+                            <a class="main-btn" href="#contact">تواصل</a><br><br><br>
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 col-md-12 order-lg-1 order-2 d-flex justify-content-center">
                         <div class="header-image header-image1 img-fluid d-block mobile-image">
-                            <img src="assets/images/banner/hero.png" alt="hero" class="img-fluid">
+                            <img src="assets/images/banner/hero.png" alt="عمر التركي - مستشار تقني" class="img-fluid">
                         </div> <!-- header image -->
                     </div>
                 </div> <!-- row -->
@@ -412,32 +452,18 @@
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
     <!--====== BACK TOP TOP PART ENDS ======-->
 
-    <!--====== jquery js ======-->
+    <!--====== Scripts ======-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-
-    <!--====== Bootstrap js ======-->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
-
-    <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-    <!--====== Parallax js ======-->
     <script src="assets/js/parallax.min.js"></script>
-
-    <!--====== Counter Up js ======-->
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-
-    <!--====== Appear js ======-->
     <script src="assets/js/jquery.appear.min.js"></script>
-
-    <!--====== Scrolling js ======-->
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
-
-    <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/mail.js"></script>
     <script src="assets/js/plugins.js"></script>
