@@ -1,7 +1,5 @@
 BEGIN:VCARD
 VERSION:4.0
-FN:Omar Alturki
-FN;CHARSET=UTF-8:عمر التركي
 N:Alturki;Omar;;;
 N;CHARSET=UTF-8:التركي;عمر;;;
 TEL;TYPE=CELL,pref:+966506425181
