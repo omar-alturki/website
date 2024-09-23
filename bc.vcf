@@ -1,13 +1,17 @@
 BEGIN:VCARD
-VERSION:4.0
+VERSION:3.0
 FN:Omar Alturki
+FN;CHARSET=UTF-8:عمر التركي
 N:Alturki;Omar;;;
+N;CHARSET=UTF-8:التركي;عمر;;;
 TEL;TYPE=CELL,pref:+966506425181
 EMAIL:Contact@OmarAlturki.me
 URL:https://OmarAlturki.me
 X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/omaralturki/
 ORG:Carefer
+ORG;CHARSET=UTF-8:كاريفر
 TITLE:CTO
 PHOTO;VALUE=uri:https://omaralturki.me/assets/images/banner/hero.png
 NOTE:CTO | Innovation & Development of Tech Products | Technical Consultant | Tech Leader & Visionary | Startups Founder
+NOTE;CHARSET=UTF-8:رئيس تقني | ابتكار و تطوير المنتجات التقنية | مستشار تقني | قائد تقني ذو رؤية مستقبلية | مؤسس مشاريع ناشئة
 END:VCARD
