@@ -1,8 +1,8 @@
 BEGIN:VCARD
-VERSION:2.1
+VERSION:3.0
 N:Alturki;Omar;;;
 FN:Omar Alturki
-TEL;CELL:+966506425181
+TEL;TYPE=CELL:+966506425181
 EMAIL:Contact@OmarAlturki.me
 URL:https://OmarAlturki.me
 X-SOCIALPROFILE:https://www.linkedin.com/in/omaralturki/
